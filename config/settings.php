@@ -50,27 +50,27 @@ return [
     /*
      * ReCaptcha Status
      */
-    'reCaptchStatus' => env('ENABLE_RECAPTCHA', false),
+    'reCaptchStatus' => env('ENABLE_RECAPTCHA', true),
 
     /*
      * ReCaptcha Site Key
      */
-    'reCaptchSite'   => env('RE_CAP_SITE', 'YOURGOOGLECAPTCHAsitekeyHERE'),
+    'reCaptchSite'   => env('RE_CAP_SITE', '6LfI53QUAAAAAH2Q_urvCBc9CRLV4I50M6YONVMJ'),
 
     /*
      * ReCaptcha Secret
      */
-    'reCaptchSecret' => env('RE_CAP_SECRET', 'YOURGOOGLECAPTCHAsecretHERE'),
+    'reCaptchSecret' => env('RE_CAP_SECRET', '6LfI53QUAAAAALfaoSbujMcDO_Kl6MQk-5XtMGMW'),
 
     /*
      * Google Maps API V3 Status
      */
-    'googleMapsAPIStatus' => env('GOOGLEMAPS_API_STATUS', false),
+    'googleMapsAPIStatus' => env('GOOGLEMAPS_API_STATUS', true),
 
     /*
      * Google Maps API Key
      */
-    'googleMapsAPIKey'    => env('GOOGLEMAPS_API_KEY', 'YOURGOOGLEMAPSkeyHERE'),
+    'googleMapsAPIKey'    => env('GOOGLEMAPS_API_KEY', 'AIzaSyBRtRJUm1NpAYtRaSBZdaDKoQ5RQCx0aEY'),
 
     /*
      * DropZone CDN
